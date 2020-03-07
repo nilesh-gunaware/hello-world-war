@@ -7,6 +7,12 @@
 	<packaging>war</packaging>
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
+	<properties>
+  <sonar.projectKey>nilesh-gunaware_hello-world-war-for-pipeline</sonar.projectKey>
+  <sonar.organization>nilesh-gunaware</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>b6ad07b2a6b47cb6e4ee398359c74a77342205f8</sonar.login>
+</properties>
 
 	<build>
 		<plugins>
